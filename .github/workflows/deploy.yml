@@ -31,10 +31,8 @@ jobs:
       - run: pnpm install --frozen-lockfile
 
       # Static SPA only — build the client; skip the unused Express server bundle.
+      # Served at the custom-domain root (lumen-ai.pro) so base defaults to "/".
       - run: pnpm exec vite build
-        env:
-          # Project site lives at /lumen-ai/. Remove this when a custom domain is wired.
-          VITE_BASE_PATH: /lumen-ai/
 
       # SPA fallback: GitHub Pages serves 404.html for unknown paths.
       - run: cp dist/public/index.html dist/public/404.html
