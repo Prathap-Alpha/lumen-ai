@@ -8,14 +8,14 @@ const TEAM = [
   {
     name: "Bharath Balasubramanian",
     role: "Technical Director",
-    img: "/manus-storage/bharath-portrait_3142137b.jpeg",
+    img: "/assets/bharath-portrait.jpeg",
     isReal: true,
     bio: "Architects the systems that translate models into measurable business outcomes. Lead engineer for every Lumen deployment.",
   },
   {
     name: "Prathap Ganesharajah",
     role: "Messenger",
-    img: "/manus-storage/prathap-portrait_ee725d6d.png",
+    img: "/assets/prathap-portrait.jpeg",
     isReal: true,
     bio: "Carries Lumen's intelligence to the boardrooms, balance sheets and operating teams who need it most. Translator between technology and outcome.",
   },

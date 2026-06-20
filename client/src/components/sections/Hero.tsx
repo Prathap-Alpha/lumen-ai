@@ -5,8 +5,7 @@
  */
 import LumenOrb from "../LumenOrb";
 
-const HERO_BG =
-  "https://d2xsxph8kpxj0f.cloudfront.net/310519663542728071/RaWAyAszo8UptR67ty8a5R/lumen-hero-bg-J3GD3kTzJoEcPXc4fv9kFr.webp";
+const HERO_BG = "/assets/hero-bg.webp";
 
 export default function Hero() {
   return (
