@@ -1,12 +1,13 @@
 /*
  * Home — Lumen single-page composition.
- * Order: Hero → Industries → Offerings → Manifesto → Team → Contact → Footer.
+ * Order: Hero → Industries → Work (24 products) → Offerings → Manifesto → Team → Contact → Footer.
  * Design: warm cream, charcoal, sun-gold accent. Editorial typography.
  */
 import Nav from "@/components/Nav";
 import Footer from "@/components/Footer";
 import Hero from "@/components/sections/Hero";
 import Industries from "@/components/sections/Industries";
+import Work from "@/components/sections/Work";
 import Offerings from "@/components/sections/Offerings";
 import Manifesto from "@/components/sections/Manifesto";
 import Team from "@/components/sections/Team";
@@ -19,6 +20,7 @@ export default function Home() {
       <main className="flex-1">
         <Hero />
         <Industries />
+        <Work />
         <Offerings />
         <Manifesto />
         <Team />

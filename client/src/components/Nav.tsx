@@ -8,6 +8,7 @@ import LumenLogo from "./LumenLogo";
 
 const items = [
   { label: "Industries", href: "#industries" },
+  { label: "Work", href: "#work" },
   { label: "Offerings", href: "#offerings" },
   { label: "Manifesto", href: "#manifesto" },
   { label: "Team", href: "#team" },

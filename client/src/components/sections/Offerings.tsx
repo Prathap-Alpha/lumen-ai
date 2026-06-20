@@ -56,7 +56,7 @@ export default function Offerings() {
       <div className="container relative">
         <div className="max-w-3xl mb-20">
           <p className="reveal font-mono-eyebrow text-white/45 mb-5">
-            03 — What we offer
+            04 — What we offer
           </p>
           <h2 className="reveal font-display text-[2.4rem] sm:text-[3.5rem] lg:text-[4.5rem] leading-[0.96] tracking-tight">
             Five disciplines.

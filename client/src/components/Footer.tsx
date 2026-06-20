@@ -23,7 +23,7 @@ export default function Footer() {
       <div className="container flex flex-col sm:flex-row items-start sm:items-center justify-between gap-6 pt-8 border-t border-white/10">
         <LumenLogo className="text-white" />
         <p className="font-mono-eyebrow text-white/40 text-[0.65rem]">
-          © {new Date().getFullYear()} Lumen Intelligence Ltd · Built in Botswana, serving worldwide
+          © {new Date().getFullYear()} Lumen · Built in Botswana, serving worldwide
         </p>
         <div className="flex gap-6 font-mono-eyebrow text-white/55">
           <a href="#" className="hover:text-white transition-colors">LinkedIn</a>

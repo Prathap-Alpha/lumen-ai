@@ -1,5 +1,5 @@
 /*
- * LumenLogo — Wordmark with a small orbiting glyph.
+ * LumenLogo — "Lumen" wordmark with an orbiting-dot glyph.
  * Editorial, minimal, single-color (currentColor).
  */
 export default function LumenLogo({
@@ -18,19 +18,19 @@ export default function LumenLogo({
         xmlns="http://www.w3.org/2000/svg"
         aria-hidden="true"
       >
-        {/* Outer ring */}
+        {/* Orbit ring */}
         <circle
           cx="16"
           cy="16"
-          r="14"
+          r="13"
           stroke="currentColor"
           strokeWidth="1"
           opacity="0.45"
         />
-        {/* Inner solid dot */}
+        {/* Core */}
         <circle cx="16" cy="16" r="5" fill="currentColor" />
-        {/* Tiny orbiting node */}
-        <circle cx="29" cy="16" r="1.6" fill="currentColor" />
+        {/* Orbiting dot */}
+        <circle cx="29" cy="16" r="2.4" fill="currentColor" />
       </svg>
       {showWord && (
         <span

@@ -47,7 +47,7 @@ export default function Contact() {
       <div className="container relative">
         <div className="max-w-4xl">
           <p className="reveal font-mono-eyebrow text-white/45 mb-6">
-            06 — Begin
+            07 — Begin
           </p>
           <h2 className="reveal font-display text-[2.6rem] sm:text-[4rem] lg:text-[6rem] leading-[0.92] tracking-tight">
             Be the

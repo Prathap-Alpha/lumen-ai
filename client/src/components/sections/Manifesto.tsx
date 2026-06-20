@@ -38,7 +38,7 @@ export default function Manifesto() {
       <div className="container">
         <div className="max-w-3xl mb-16 sm:mb-20">
           <p className="reveal font-mono-eyebrow text-foreground/55 mb-5">
-            04 — How we work
+            05 — How we work
           </p>
           <h2 className="reveal font-display text-[2.4rem] sm:text-[3.5rem] lg:text-[4.5rem] leading-[0.96] tracking-tight">
             Four principles.

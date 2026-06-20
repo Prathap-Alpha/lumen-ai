@@ -40,7 +40,7 @@ export default function Hero() {
       <div className="relative z-20 container h-full flex flex-col justify-between pt-24 sm:pt-32 pb-10 sm:pb-16 pointer-events-none">
         <div className="max-w-2xl pointer-events-auto">
           <p className="font-mono-eyebrow text-foreground/60 mb-4 sm:mb-6 text-[10px] sm:text-xs">
-            01 — Lumen / AI Consultancy
+            01 — Lumen / Applied Intelligence Studio
           </p>
           <h1 className="font-display text-[2.5rem] xs:text-[3rem] sm:text-[4.5rem] lg:text-[6rem] leading-[0.95] tracking-tight text-foreground">
             Intelligence,
@@ -52,12 +52,12 @@ export default function Hero() {
         <div className="flex flex-col sm:flex-row justify-between items-start sm:items-end gap-5 sm:gap-6 pointer-events-auto">
           <div className="max-w-md">
             <p className="font-display text-base sm:text-xl text-foreground/85 leading-snug">
-              An AI consultancy born in{" "}
+              An applied-intelligence studio born in{" "}
               <span className="italic">Botswana</span>, built for the world.
             </p>
             <p className="mt-2 sm:mt-3 text-xs sm:text-sm text-foreground/55 leading-relaxed max-w-sm">
-              We design, deploy and operate adaptable AI systems for insurance,
-              manufacturing, hospitals, SMEs, mining and healthcare.
+              Twenty-four products across finance, industry, healthcare and
+              private AI — from production ERPs to on-device computer vision.
             </p>
           </div>
           <a
